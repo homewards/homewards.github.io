@@ -1,0 +1,300 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+ font-family: 'Kanit', sans-serif;
+}
+
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+
+
+
+h1 {
+    font-size: 11px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+text-decoration: underline;
+}
+
+h3 { 
+font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+p {
+    font-size: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 130%;
+}
+
+.back {
+    height: 610px; 
+    position: relative; 
+    top: 0; 
+    left:0;
+        opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+
+.sb9 {
+
+    position: absolute;
+    top:  33%;
+    left: 65.6%;
+   height: 30%;
+}
+
+.sb9:hover {
+    position: absolute;
+    top:  33%;
+    left: 60.6%;
+   height: 30%;
+      -ms-transform: rotate(-2deg); /* IE 9 */
+    -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+    transform: rotate(-2deg);
+            opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.nico {
+    position: absolute;
+    top:  3%;
+    left: 47%;
+   height: 30%;
+
+}
+
+.nico:hover {
+        position: absolute;
+    top:  3%;
+    left: 42%;
+   height: 30%;
+   -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+        opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.cu {
+
+    position: absolute;
+    top:  33%;
+    left: 47%;
+     height: 30%;
+}
+
+.ar {
+    position: absolute;
+    top:  3%;
+    left: 65.6%;
+    height: 30%;
+}
+
+.bd {
+
+    position: absolute;
+    top:  63%;
+    left: 47%;
+   height: 30%;
+}
+
+.bd:hover {
+        position: absolute;
+    top:  63%;
+    left: 42%;
+   height: 30%;
+   -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
+            opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.bu {
+    position: absolute;
+    top:  63%;
+    left: 65.6%;
+   height: 30%;
+}
+
+.logo {
+    background-color: rgba(0,0,0,0);
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    right:70%;
+    top: 20%;
+
+    -webkit-animation: spin .99s infinite linear;
+    animation: spin .99s infinite linear;
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+
+#rightbar {
+    text-align: right;
+}
+
+#undone {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+@media only screen and (max-width: 900px) {
+    .col-4                     {
+        background-color: blue;
+    }
+}
+
+.slide {
+
+max-height: 320px;
+ padding:O;
+}
+
+.slide2 {
+
+width: 100%;
+ padding:O;
+}
+
+#sidebar {
+    padding-right: 10px;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 100%;
+    height: 90%;
+    max-height: 600px;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+    margin-top: 10px;
+    max-height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+    max-height: 700px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a:active {
+    text-decoration: underline;
+    color: black;
+}
