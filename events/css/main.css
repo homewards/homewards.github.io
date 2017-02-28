@@ -65,8 +65,8 @@ p {
 }
 
 .sideimg {
-    width:100%; 
-    max-height:100px; 
+    max-width:90%; 
+    max-height:90%; 
     border-style:solid; 
     border-color:white;
 }
