@@ -64,6 +64,12 @@ p {
     line-height: 130%;
 }
 
+.sideimg {
+    width:100%; 
+    max-height:100px; 
+    border-style:solid; 
+    border-color:white;
+}
 .back {
     height: 610px; 
     position: relative; 
