@@ -261,15 +261,12 @@ width: 100%;
     width: 25%;
     margin-top: 10px;
     max-height: 600px;
-    overflow-x: hidden;
-    overflow-y: auto;
+
 }
 .loc-3 {
     width: 25%;
     margin-top: 10px;
     max-height: 600px;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 .col-4 {
@@ -335,6 +332,9 @@ a:active {
 @media only screen and (orientation: portrait)  {
     .loc-5  { display:none }
     .loc-3 { display:none }
+    p {font-size:20px}
+    a {font-size:20px}
+    h1 {font-size:20px}
 }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
