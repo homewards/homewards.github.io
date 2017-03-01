@@ -329,16 +329,16 @@ a:active {
     width: 100%;
 }
 
-@media only screen and (max-width: 800px)  {
+@media only screen and (max-width: 1000px)  {
     .loc-5  { display:none }
     .loc-3 { display:none }
-    p {font-size:30px}
-    a {font-size:30px}
-    h1 {font-size:30px}
-    *="col-" {width: 100%}
+    p {font-size:50px;}
+    a {font-size:50px;}
+    h1 {font-size:50px;}
+    .col-1 {width: 100%;}
 }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 999px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
