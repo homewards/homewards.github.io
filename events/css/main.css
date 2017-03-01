@@ -72,6 +72,15 @@ p {
         display: block;
     margin: auto;
 }
+
+.midimg {
+    max-width:60%; 
+    max-height:60%; 
+    border-style:solid; 
+    border-color:white;
+            margin: auto;
+            display: block;
+}
 .back {
     height: 610px; 
     position: relative; 
