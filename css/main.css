@@ -92,12 +92,12 @@ p {
 
 .sb9:hover {
     position: absolute;
-    top:  33%;
-    left: 60.6%;
+    top:  23%;
+    left: 68.6%;
    height: 30%;
-      -ms-transform: rotate(-2deg); /* IE 9 */
-    -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
-    transform: rotate(-2deg);
+      -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
             opacity: 0.8;
     filter: alpha(opacity=80);
 }
@@ -155,8 +155,8 @@ p {
 
 .bd:hover {
         position: absolute;
-    top:  63%;
-    left: 42%;
+    top:  55%;
+    left: 40%;
    height: 30%;
    -ms-transform: rotate(15deg); /* IE 9 */
     -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
@@ -175,7 +175,7 @@ p {
 .bu:hover {
         position: absolute;
     top:  63%;
-    left: 65.5%;
+    left: 75.5%;
    height: 30%;
    -ms-transform: rotate(15deg); /* IE 9 */
     -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
