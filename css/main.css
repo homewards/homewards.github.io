@@ -143,6 +143,18 @@ p {
      height: 30%;
 }
 
+.cu:hover {
+     position: absolute;
+    top:  33%;
+    left: 47%;
+     height: 30%;
+        -ms-transform: rotate(-15deg); /* IE 9 */
+    -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+    transform: rotate(-15deg);
+            opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
 .ar {
     position: absolute;
     top:  3%;
