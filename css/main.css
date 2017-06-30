@@ -10,6 +10,7 @@
 
 * {
  font-family: 'Kanit', sans-serif;
+ line-height: 100%
 }
 
 
@@ -87,26 +88,6 @@ p {
 }
 
 
-.sb9 {
-
-    position: absolute;
-    top:  33%;
-    left: 65.6%;
-   height: 30%;
-}
-
-.sb9:hover {
-    position: absolute;
-    top:  33%;
-    left: 65.6%;
-   height: 30%;
-      -ms-transform: rotate(15deg); /* IE 9 */
-    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
-    transform: rotate(15deg);
-            opacity: 0.8;
-    filter: alpha(opacity=80);
-}
-
 .sideimg {
     max-width:90%; 
     max-height:90%; 
@@ -116,25 +97,7 @@ p {
     margin: auto;
 }
 
-.nico {
-    position: absolute;
-    top:  3%;
-    left: 47%;
-   height: 30%;
 
-}
-
-.nico:hover {
-        position: absolute;
-    top:  3%;
-    left: 47%;
-   height: 30%;
-   -ms-transform: rotate(-10deg); /* IE 9 */
-    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
-    transform: rotate(-10deg);
-        opacity: 0.8;
-    filter: alpha(opacity=80);
-}
 .cu {
 
     position: absolute;
@@ -143,82 +106,15 @@ p {
      height: 30%;
 }
 
-.cu:hover {
-     position: absolute;
-    top:  33%;
-    left: 47%;
-     height: 30%;
-        -ms-transform: rotate(-15deg); /* IE 9 */
-    -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
-    transform: rotate(-15deg);
-            opacity: 0.8;
-    filter: alpha(opacity=80);
-}
 
-.ar {
-    position: absolute;
-    top:  3%;
-    left: 65.6%;
-    height: 30%;
-}
-
-.ar:hover {
-    position: absolute;
-    top:  3%;
-    left: 65.6%;
-    height: 30%;
-    -ms-transform: rotate(10deg); /* IE 9 */
-    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
-    transform: rotate(10deg);
-        opacity: 0.8;
-    filter: alpha(opacity=80);
-}
-.bd {
-
-    position: absolute;
-    top:  63%;
-    left: 47%;
-   height: 30%;
-}
-
-.bd:hover {
-        position: absolute;
-    top:  63%;
-    left: 47%;
-   height: 30%;
-   -ms-transform: rotate(-25deg); /* IE 9 */
-    -webkit-transform: rotate(-25deg); /* Chrome, Safari, Opera */
-    transform: rotate(-25deg);
-            opacity: 0.8;
-    filter: alpha(opacity=80);
-}
-
-.bu {
-    position: absolute;
-    top:  63%;
-    left: 65.6%;
-   height: 30%;
-}
-
-.bu:hover {
-        position: absolute;
-    top:  63%;
-    left: 65.6%;
-   height: 30%;
-   -ms-transform: rotate(25deg); /* IE 9 */
-    -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
-    transform: rotate(25deg);
-            opacity: 0.8;
-    filter: alpha(opacity=80);
-}
 
 .logo {
     background-color: rgba(0,0,0,0);
-    height: 90px;
-    width: 90px;
+    height: 50px;
+    width: 50px;
     position: absolute;
-    right:72%;
-    top: 30%;
+left:44%;
+    bottom: 10%;
 
     -webkit-animation: spin .99s infinite linear;
     animation: spin .99s infinite linear;
