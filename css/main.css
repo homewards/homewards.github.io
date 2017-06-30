@@ -239,7 +239,7 @@ p {
 
 
 #rightbar {
-    text-align: right;
+    text-align: left;
 }
 
 #undone {
@@ -295,10 +295,8 @@ width: 100%;
 
 .col-3 {
     width: 25%;
-    margin-top: 10px;
-    max-height: 600px;
-
 }
+
 .loc-3 {
     width: 25%;
     margin-top: 10px;
@@ -365,7 +363,7 @@ a:active {
     width: 100%;
 }
 
-@media only screen and (max-width: 1000px)  {
+@media only screen and (max-width: 800px)  {
     .loc-5  { display:none }
     .loc-3 { display:none }
     p {font-size:50px;}
@@ -374,7 +372,7 @@ a:active {
     .col-1 {width: 100%;}
 }
 
-@media only screen and (min-width: 999px) {
+@media only screen and (min-width: 799px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
