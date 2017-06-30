@@ -114,7 +114,7 @@ p {
     width: 50px;
     position: absolute;
 left:44%;
-    bottom: 10%;
+    bottom: 8%;
 
     -webkit-animation: spin .99s infinite linear;
     animation: spin .99s infinite linear;
