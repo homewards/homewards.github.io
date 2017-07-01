@@ -113,7 +113,7 @@ p {
     height: 50px;
     width: 50px;
     position: absolute;
-left:44%;
+right:10%;
     bottom: 8%;
 
     -webkit-animation: spin .99s infinite linear;
