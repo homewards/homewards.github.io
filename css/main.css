@@ -110,11 +110,11 @@ p {
 
 .logo {
     background-color: rgba(0,0,0,0);
-    height: 50px;
-    width: 50px;
+    height: 85px;
+    width: 85px;
     position: absolute;
-right:10%;
-    bottom: 8%;
+right:60%;
+    bottom: 11%;
 
     -webkit-animation: spin .99s infinite linear;
     animation: spin .99s infinite linear;
