@@ -183,7 +183,8 @@ width: 100%;
 
 .homepage {
     position: absolute;
-    top: 16px;
+    max-width: 500px;
+    top: 0px;
 }
 
 .col-1 {
