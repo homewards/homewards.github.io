@@ -69,6 +69,7 @@ font-size: 20px;
 h2 {
     font-size: 11px;
     text-align: center;
+    padding-right: 40px;
 }
 
 p {
@@ -83,7 +84,7 @@ p {
     position: relative; 
     top: 0; 
     left:0;
-        opacity: 0.2;
+    opacity: 0.2;
     filter: alpha(opacity=20);
 }
 
@@ -93,8 +94,9 @@ p {
     max-height:100%; 
     border-style:solid; 
     border-color:white;
-        display: block;
-        padding-top: 40px;
+    display: block;
+    padding-top: 40px;
+    padding-right: 40px;
     margin: auto;
 }
 
@@ -146,7 +148,7 @@ right:60%;
 
 @media only screen and (max-width: 900px) {
     .col-4                     {
-        background-color: blue;
+        background-color: white;
     }
 }
 
