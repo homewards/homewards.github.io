@@ -9,7 +9,7 @@
 }
 
 * {
- font-family: 'Kanit', sans-serif;
+ font-family: 'Space Mono', monospace;
  line-height: 100%
 }
 
@@ -40,7 +40,7 @@ div.panel {
 
 
 h1 {
-    font-size: 11px;
+    font-size: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 10px;
@@ -52,7 +52,7 @@ text-decoration: underline;
     padding: 3px
 }
 h4 {
-    font-size: 11px;
+    font-size: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 10px;
@@ -67,12 +67,12 @@ font-size: 20px;
 }
 
 h2 {
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
     padding-left: 10px;
     padding-right: 10px;
     line-height: 130%;
