@@ -7,7 +7,7 @@ var msg = "THE GATHERING III";
 
 // Set font's style size for calculating dimensions
 // Set to number of desired pixels font size (decimal and negative numbers not allowed)
-var size = 20;
+var size = 30;
 
 // Set both to 1 for plain circle, set one of them to 2 for oval
 // Other numbers & decimals can have interesting effects, keep these low (0 to 3)
@@ -15,14 +15,14 @@ var circleY = 0; var circleX = 5;
 
 // The larger this divisor, the smaller the spaces between letters
 // (decimals allowed, not negative numbers)
-var letter_spacing = 10;
+var letter_spacing = 30;
 
 // The larger this multiplier, the bigger the circle/oval
 // (decimals allowed, not negative numbers, some rounding is applied)
-var diameter = 10;
+var diameter = 45;
 
 // Rotation speed, set it negative if you want it to spin clockwise (decimals allowed)
-var rotation = 0.2;
+var rotation = 0.5;
 
 // This is not the rotation speed, its the reaction speed, keep low!
 // Set this to 1 or a decimal less than one (decimals allowed, not negative numbers)
@@ -104,4 +104,3 @@ else if (window.attachEvent){
 };
 
 })();
-
