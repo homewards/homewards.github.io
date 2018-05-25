@@ -123,13 +123,13 @@ a {
 
 
 .sideimg {
-    max-width:90%; 
+    max-width:85%; 
     max-height:100%; 
     border-style:solid; 
     border-color:white;
     display: block;
-    padding-top: 25px;
-    padding-right: 20px;
+    padding-top: 0px;
+    padding-right: 30px;
     margin: auto;
 }
 
