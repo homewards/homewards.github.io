@@ -1,3 +1,36 @@
+
+
+body { background: linear-gradient(178deg, #000000, #000000, #ff0000, #000000, #030000, #030000);
+background-size: 1200% 1200%;
+
+-webkit-animation: AnimationName 57s ease infinite;
+-moz-animation: AnimationName 57s ease infinite;
+animation: AnimationName 57s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+
+html {
+  height:100%;
+  width:100%;
+}
+
 /* Circle Text Styles */
 #outerCircleText {
 
@@ -13,3 +46,9 @@ position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
 #outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
 /* End Required */
 /* End Circle Text Styles */
+
+* {
+ font-family: 'Space Mono', monospace;
+ line-height: 110%
+ font-size: 50px;
+}
