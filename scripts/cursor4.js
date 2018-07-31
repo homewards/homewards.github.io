@@ -7,7 +7,7 @@ var msg = "ARRBUTUS❥❥❥❥❥❥❥❥❥❥❥❥❥❥❥❥❥❥❥❥�
 
 // Set font's style size for calculating dimensions
 // Set to number of desired pixels font size (decimal and negative numbers not allowed)
-var size = 50;
+var size = 20;
 
 // Set both to 1 for plain circle, set one of them to 2 for oval
 // Other numbers & decimals can have interesting effects, keep these low (0 to 3)
