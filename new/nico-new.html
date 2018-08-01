@@ -64,7 +64,7 @@ direction= "left">
 </div>
 
 <!-- Services -->
-  <div class="w3-container" id="services" style="margin-top:65px;margin-right:350px">
+  <div class="w3-container less" id="services" style="margin-top:65px;">
     <h1 class="w3-large w3-text-black"><b>Nico Stephou — Graphic Designer / Art Director</b></h1>
 <br>
 
@@ -72,6 +72,8 @@ direction= "left">
       <h1 class="w3-medium" >I am a graphic designer working on identities, printed matter, digital projects and visual research. As an art director I have worked for multiple foundations, record labels and art projects. I have also co-founded the community platform and record label Honest Electronics and the yearly festival “The Gathering”.</h1>
       <h1 class="w3-medium" >In 2017 I have graduated from the Graphic Design Department of "Gerrit Rietveld Academie" in Amsterdam, Netherlands.</h1>
   </div>
+
+
 
 <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
@@ -134,6 +136,12 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
+
+@media only screen and (max-width: 600px) {
+    .w3-container {margin-right:0px}
+
+}
+
 </script>
 
 </body>
