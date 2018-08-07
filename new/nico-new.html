@@ -17,13 +17,12 @@
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Space Mono", sans-serif}
 body {font-size:16px; letter-spacing: 1px; line-height: 1;}
-.w3-half img{margin-bottom:-6px;margin-top:0px;cursor:pointer}
-.w3-half img:hover{opacity:0.1}
+.w3-half img{margin-bottom:0px;margin-top:0px:margin-right:0px;margin-left:0px;padding:none;}
 </style>
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-white w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:200px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-white w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:210px;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:15px">Close Menu</a>
   <div class="w3-container">
 
@@ -32,8 +31,9 @@ body {font-size:16px; letter-spacing: 1px; line-height: 1;}
     <a href="#" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">About</a> 
     <br>
     <p class="w3-small w3-bar-item">Projects:</p>
-    <a href="#showcase" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Showcase</a> 
-    <a href="#services" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Services</a> 
+
+    <a href="#showcase" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">The Gathering III</a> 
+    <a href="#ebb" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">EBB & FLOW</a> 
     <a href="#designers" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Designers</a> 
     <a href="#packages" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Packages</a> 
     <br>
@@ -51,10 +51,11 @@ body {font-size:16px; letter-spacing: 1px; line-height: 1;}
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:200px;margin-right:40px">
+<div class="w3-main" style="margin-left:200px;margin-right:0px">
 
   <div>
 <marquee
+margin-top="10px"
 style="position: absolute;"
 scrollamount="5"
 direction= "left">
@@ -65,34 +66,35 @@ direction= "left">
 
 <!-- Services -->
   <div class="w3-container less" id="services" style="margin-top:65px;">
-    <h1 class="w3-large w3-text-black"><b>Nico Stephou — Graphic Designer / Art Director</b></h1>
-<br>
+    <h1 class="w3-large w3-text-black"><b>Nico Stephou</b></h1>
+    <h1 class="w3-large w3-text-black"><b>Graphic Designer / Art Director</b></h1>
 
       <br>
-      <h1 class="w3-medium" >I am a graphic designer working on identities, printed matter, digital projects and visual research. As an art director I have worked for multiple foundations, record labels and art projects. I have also co-founded the community platform and record label Honest Electronics and the yearly festival “The Gathering”.</h1>
-      <h1 class="w3-medium" >In 2017 I have graduated from the Graphic Design Department of "Gerrit Rietveld Academie" in Amsterdam, Netherlands.</h1>
+      <h1 class="w3-medium w3-half">I am a graphic designer working on identities, printed matter, digital projects and visual research. As an art director I have worked for multiple foundations, record labels and art projects. I have also co-founded the community platform and record label Honest Electronics and the yearly festival “The Gathering”.<br>
+ <br>In 2017 I have graduated from the Graphic Design Department of "Gerrit Rietveld Academie" in Amsterdam, Netherlands.</h1>
   </div>
 
 
 
 <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-large"><b>Interior Design</b></h1>
-    <h1 class="w3-large w3-text-black"><b>Showcase.</b></h1>
+    <h1 class="w3-large"><b>The Gathering III</b></h1>
+    <h1 class="w3-small w3-text-black"><b>Art Direction & Graphic Design</b></h1>
+    <h1 class="w3-medium w3-half" >The Gathering is a yearly festival organised by Honest Electronics in order to promote local underground talent.</h1>
   </div>
-  
+  <br>
   <!-- Photo grid (modal) -->
-  <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="images/artwork2.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="images/artwork3.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="images/artwork6.png"" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+  <div>
+    <div>
+      <img src="images/clusters.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
     </div>
 
     <div class="w3-half">
-      <img src="images/artwork2.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="images/artwork3.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="images/artwork6.png"" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+      <img src="images/gathering-poster-web.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+    </div>
+
+    <div class="w3-half">
+      <img src="images/gathering-poster-nude.png"" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
     </div>
   </div>
 
@@ -104,6 +106,51 @@ direction= "left">
       <p id="caption"></p>
     </div>
   </div>
+
+<div class="w3-container less">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+ <div class="w3-container less" id="ebb" style="margin-top:65px;">
+    <h1 class="w3-large w3-text-black"><b>EBB & FLOW by Shammaes</b></h1>
+    <h1 class="w3-small w3-text-black"><b>Poster Design</b></h1>
+
+      <br>
+      <h1 class="w3-medium w3-half" >Opening: Thursday, 5 July 2018, 19:00
+<br>Duration: 5-11 July
+<br>
+<br>up and down. 
+<br>right and left.
+<br>back and forth. 
+<br>
+<br>Ebb & Flow is a sound installation by Shammaes that brings together their respective interests in sound, design and architecture. The installation itself collides classic dualities, but by placing them in direct confrontation it ends up problematizing them.
+<br>
+<br>mechanics and dynamics. 
+<br>automata and avalanches.
+<br>harmonic and chaotic. 
+<br>
+<br>As time changes so do sounds and their convolution. The mechanical oscillation’s contact with soil is done at the expense of harmonicity and constancy. In some sense then, this form of oscillation resembles more and more to some other, more primordial ones; namely, that of a tide’s ebb and flow.</h1>
+  </div>
+<br>
+<br>
+<br>
+
+<div class="w3-third">
+      <img src="images/ebb1.png" style="width:100%" onclick="onClick(this)">
+    </div>
+<div class="w3-third">
+      <img src="images/ebb2.png" style="width:100%" onclick="onClick(this)">
+    </div>
+<div class="w3-third">
+      <img src="images/ebb3.png" style="width:100%" onclick="onClick(this)">
+    </div>
+
+
+
 
 
 <!-- Contact -->
