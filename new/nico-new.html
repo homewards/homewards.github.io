@@ -22,47 +22,33 @@ body {font-size:16px; letter-spacing: 1px; line-height: 1;}
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-white w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:210px;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:15px">Close Menu</a>
+<nav class="w3-sidebar w3-white w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:220px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
 
   </div>
   <div class="w3-bar-block" style="margin-top:50px">
     <a href="#" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">About</a> 
-    <br>
-    <p class="w3-small w3-bar-item">Projects:</p>
-
+    <p onclick="w3_close()" class="w3-small w3-bar-item">Projects:</p>
     <a href="#showcase" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">The Gathering III</a> 
     <a href="#ebb" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">EBB & FLOW</a> 
-    <a href="#designers" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Designers</a> 
+    <a href="#orbital" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Orbital</a> 
     <a href="#packages" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Packages</a> 
-    <br>
     <a href="#contact" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Contact</a>
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-white w3-large w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-white w3-margin-right" onclick="w3_open()">☰</a>
-  <span></span>
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:200px;margin-right:0px">
+<div class="w3-main" style="margin-left:220px;margin-right:0px">
 
-  <div>
-<marquee
-margin-top="10px"
-style="position: absolute;"
-scrollamount="5"
-direction= "left">
-<img src="images/soft-plane.gif" width="5%">
-</marquee>
-
-</div>
 
 <!-- Services -->
   <div class="w3-container less" id="services" style="margin-top:65px;">
@@ -70,7 +56,7 @@ direction= "left">
     <h1 class="w3-large w3-text-black"><b>Graphic Designer / Art Director</b></h1>
 
       <br>
-      <h1 class="w3-medium w3-half">I am a graphic designer working on identities, printed matter, digital projects and visual research. As an art director I have worked for multiple foundations, record labels and art projects. I have also co-founded the community platform and record label Honest Electronics and the yearly festival “The Gathering”.<br>
+      <h1 class="w3-medium w3-twothird">I am a graphic designer working on identities, printed matter, digital projects and visual research. As an art director I have worked for multiple foundations, record labels and art projects. I have also co-founded the community platform and record label Honest Electronics and the yearly festival “The Gathering”.<br>
  <br>In 2017 I have graduated from the Graphic Design Department of "Gerrit Rietveld Academie" in Amsterdam, Netherlands.</h1>
   </div>
 
@@ -80,7 +66,7 @@ direction= "left">
   <div class="w3-container" style="margin-top:80px" id="showcase">
     <h1 class="w3-large"><b>The Gathering III</b></h1>
     <h1 class="w3-small w3-text-black"><b>Art Direction & Graphic Design</b></h1>
-    <h1 class="w3-medium w3-half" >The Gathering is a yearly festival organised by Honest Electronics in order to promote local underground talent.</h1>
+    <h1 class="w3-medium w3-twothird" >The Gathering is a yearly festival organised by Honest Electronics in order to promote local underground talent.</h1>
   </div>
   <br>
   <!-- Photo grid (modal) -->
@@ -88,15 +74,15 @@ direction= "left">
     <div>
       <img src="images/clusters.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
     </div>
+    <br>
+    <br>
+    <br>
 
     <div class="w3-half">
       <img src="images/gathering-poster-web.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
     </div>
 
-    <div class="w3-half">
-      <img src="images/gathering-poster-nude.png"" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
-    </div>
-  </div>
+
 
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
@@ -120,7 +106,43 @@ direction= "left">
     <h1 class="w3-small w3-text-black"><b>Poster Design</b></h1>
 
       <br>
-      <h1 class="w3-medium w3-half" >Opening: Thursday, 5 July 2018, 19:00
+      <h1 class="w3-medium w3-twothird" >Opening: Thursday, 5 July 2018, 19:00
+<br>Duration: 5-11 July
+<br>
+<br>up and down. 
+<br>right and left.
+<br>back and forth. 
+<br>
+<br>Ebb & Flow is a sound installation by Shammaes that brings together their respective interests in sound, design and architecture. The installation itself collides classic dualities, but by placing them in direct confrontation it ends up problematizing them.
+<br>
+<br>mechanics and dynamics. 
+<br>automata and avalanches.
+<br>harmonic and chaotic. 
+<br>
+<br>As time changes so do sounds and their convolution. The mechanical oscillation’s contact with soil is done at the expense of harmonicity and constancy. In some sense then, this form of oscillation resembles more and more to some other, more primordial ones; namely, that of a tide’s ebb and flow.</h1>
+  </div>
+<br>
+<br>
+<br>
+
+<div class="w3-third">
+      <img src="images/ebb1.png" style="width:100%" onclick="onClick(this)">
+    </div>
+<div class="w3-third">
+      <img src="images/ebb2.png" style="width:100%" onclick="onClick(this)">
+    </div>
+<div class="w3-third">
+      <img src="images/ebb3.png" style="width:100%" onclick="onClick(this)">
+    </div>
+
+
+</div>
+ <div class="w3-container less" id="orbital" style="margin-top:65px;">
+    <h1 class="w3-large w3-text-black"><b>Orbital</b></h1>
+    <h1 class="w3-small w3-text-black"><b>Personal Multidisciplinary Performance</b></h1>
+
+      <br>
+      <h1 class="w3-medium w3-twothird" >Opening: Thursday, 5 July 2018, 19:00
 <br>Duration: 5-11 July
 <br>
 <br>up and down. 
@@ -152,7 +174,6 @@ direction= "left">
 
 
 
-
 <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:65px;margin-right:350px">
         <h1 class="w3-large" >Art Director</h1>
@@ -163,6 +184,9 @@ direction= "left">
 <!-- End page content -->
 </div>
 
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
 
 <script>
 // Script to open and close sidebar
@@ -183,13 +207,8 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-
-@media only screen and (max-width: 600px) {
-    .w3-container {margin-right:0px}
-
-}
-
 </script>
+
 
 </body>
 </html>
