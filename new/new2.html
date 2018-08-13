@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title>Nico Stephou</title>
-<meta charset="UTF-8">
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono">
@@ -14,50 +14,90 @@
 <link rel="icon" href="https://thumb.ibb.co/gNoVv5/favicon.png" type="image/x-icon">
 
 
+
 <style>
+
 body,h1,h2,h3,h4,h5 {font-family: "Space Mono", sans-serif}
 body {font-size:16px; letter-spacing: 1px; line-height: 1;}
 .w3-half img{margin-bottom:0px;margin-top:0px:margin-right:0px;margin-left:0px;padding:none;}
+body {
+  margin: 0;
+  font-size: 28px;
+
+}
+
+.header {
+  background-color: black;
+  color: white;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 </style>
+</head>
 <body>
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-white w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:220px;font-weight:bold;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-  <div class="w3-container">
-
-  </div>
-  <div class="w3-bar-block" style="margin-top:50px">
-    <a href="#" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">About</a> 
-    <a href="#showcase" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">The Gathering III</a> 
-    <a href="#ebb" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">EBB & FLOW</a> 
-    <a href="#orbital" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Orbital</a> 
-    <a href="#chakana" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Chakana</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-small w3-bar-item w3-button w3-hover-white">Contact</a>
-  </div>
-</nav>
-
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-</header>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:220px;margin-right:0px">
-
-
 <!-- Services -->
-  <div class="w3-container less" id="services" style="margin-top:65px;">
-    <h1 class="w3-large w3-text-black"><b>Nico Stephou</b></h1>
-    <h1 class="w3-large w3-text-black"><b>Graphic Designer / Art Director</b></h1>
-
-      <br>
+  <div class="w3-container less header" id="services">
+    <h1 class="w3-large"><b>Nico Stephou</b></h1>
+    <h1 class="w3-large"><b>Graphic Designer / Art Director</b></h1>
       <h1 class="w3-small w3-twothird">I am a graphic designer working on identities, printed matter, digital projects and visual research. As an art director I have worked for multiple foundations, record labels and art projects. I have also co-founded the community platform and record label Honest Electronics and the yearly festival “The Gathering”.<br>
  <br>In 2017 I have graduated from the Graphic Design Department of "Gerrit Rietveld Academie" in Amsterdam, Netherlands.</h1>
   </div>
+
+<div id="navbar" style="margin-top:0px">
+    <a href="#" onclick="w3_close()" class="w3-small ">About</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-small ">The Gathering III</a> 
+    <a href="#ebb" onclick="w3_close()" class="w3-small ">EBB & FLOW</a> 
+    <a href="#orbital" onclick="w3_close()" class="w3-small ">Orbital</a> 
+    <a href="#chakana" onclick="w3_close()" class="w3-small ">Chakana</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-small ">Contact</a>
+  </div>
+
+
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:0px;margin-right:0px">
+
+
+
 
 
 
@@ -65,20 +105,19 @@ body {font-size:16px; letter-spacing: 1px; line-height: 1;}
   <div class="w3-container" style="margin-top:80px" id="showcase">
     <h1 class="w3-large"><b>The Gathering III</b></h1>
     <h1 class="w3-small w3-text-black"><b>Art Direction & Graphic Design</b></h1>
-    <h1 class="w3-medium w3-twothird" >The Gathering is a yearly festival organised by Honest Electronics in order to promote local underground talent.</h1>
+    <h1 class="w3-small w3-third" >The Gathering is a yearly festival organised by Honest Electronics in order to promote local underground talent.</h1>
   </div>
   <br>
   <!-- Photo grid (modal) -->
   <div>
-    <div class="w3-twothird">
+    <div class="w3-third">
       <img src="images/clusters.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
     </div>
-    <br>
-    <br>
-    <br>
-
-    <div class="w3-twothird">
+    <div class="w3-third">
       <img src="images/gathering-poster-web.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+    </div>
+        <div class="w3-third">
+      <img src="images/artwork2.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
     </div>
 
 
@@ -158,25 +197,29 @@ The performance at Thkio Ppalies will lasted for three hours. The crowd was able
 <br>
 <br>
 <br>
+    <div class="w3-twothird">
+      <img src="images/orbital/orbital-all.png" style="width:100%" onclick="onClick(this)">
+ </div>
+
 <div class="w3-twothird">
       <img src="images/orbital/orbital4.jpg" style="width:100%" onclick="onClick(this)">
 
     </div>
 
-<div class="w3-twothird">
-      <img src="images/orbital/orbital-all.png" style="width:100%" onclick="onClick(this)">
-
-
-<div class="w3-half">
+<div class="w3-third">
       <img src="images/orbital/orbital3.jpg" style="width:100%" onclick="onClick(this)">
     </div>
-<div class="w3-half">
+
+<div class="w3-third">
       <img src="images/orbital/orbital6.jpg" style="width:100%" onclick="onClick(this)">
     </div>
 
-<div>
+<div class="w3-third">
       <img src="images/orbital/orbital1.jpg" style="width:100%" onclick="onClick(this)">
     </div>
+
+
+
         </div>
 
 
@@ -260,16 +303,19 @@ The performance at Thkio Ppalies will lasted for three hours. The crowd was able
 <!-- W3.CSS Container -->
 <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
 
+
 <script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
 }
 
 // Modal Image Gallery
@@ -279,8 +325,8 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-</script>
 
+</script>
 
 </body>
 </html>
