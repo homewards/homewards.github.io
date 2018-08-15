@@ -72,7 +72,17 @@ body {
 </head>
 <body>
 
-<!-- Services -->
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+
+<!-- HEADER -->
   <div class="w3-container less header" id="services">
     <h1 class="w3-small w3-third">Nico Stephou</h1>
     <h1 class="w3-small w3-third">Graphic Designer / Art Director</h1>
@@ -83,47 +93,40 @@ body {
 
 
 
+
+<!-- NAVBAR -->
 <div id="navbar" style="margin-top:0px">
   <div class="w3-third"> 
     <a href="#" onclick="w3_close()" class="w3-small ">Design</a> 
     <a href="#showcase" onclick="w3_close()" class="w3-small ">Sound</a> 
         <a href="https://www.instagram.com/currenttribal/" target="_blank" onclick="w3_close()" class="w3-small">Tattoo</a>
+            <a href="#contact" onclick="w3_close()" class="w3-small">Contact</a>
         </div> 
 
-        <div class="w3-third"> 
-    <a href="#" onclick="w3_close()" class="w3-small" style="color:blue">Projects:</a> 
-    <a href="#ebb" onclick="w3_close()" class="w3-small ">EBB & FLOW</a>
-    <a href="#orbital" onclick="w3_close()" class="w3-small ">Orbital</a> 
-    <a href="#chakana" onclick="w3_close()" class="w3-small ">Chakana</a> 
+        <div class="w3-twothird"> 
+    <a href="#" onclick="w3_close()" class="w3-small" style="color:blue">Clients:</a> 
+    <a href="#honest" onclick="w3_close()" class="w3-small ">Honest Electronics</a>
+    <a href="#ppalies" onclick="w3_close()" class="w3-small ">Thkio Ppalies</a> 
+    <a href="#chakana" onclick="w3_close()" class="w3-small ">Cyprus Artists Assosiation</a>
+        <a href="#chakana" onclick="w3_close()" class="w3-small ">Ankali Club</a> 
+            <a href="#chakana" onclick="w3_close()" class="w3-small ">MJMJ Records</a> 
+        </div>
 </div>
 
-    <div class="w3-third"> 
-    <a href="#contact" onclick="w3_close()" class="w3-small">Contact</a>
-  </div>
-
-
-</div>
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:0px;margin-right:0px">
 
 
-
-
-
-
-<!-- Header -->
-  <div class="w3-container" style="margin-top:50px" id="showcase">
+<!-- Honest -->
+  <div class="w3-container" style="margin-top:50px" id="honest">
 
     <h1 class="w3-large w3-third">Honest Electronics</h1>
-
     <h1 class="w3-large w3-third"><b>The Gathering III</h1>
-
     <h1 class="w3-small w3-text-white"><b>Art Direction & Graphic Design</b></h1>
     <h1 class="w3-small w3-third" >The Gathering is a yearly festival organised by Honest Electronics in order to promote local underground talent.</h1>
   </div>
   <br>
-  <!-- Photo grid (modal) -->
   <div>
     <div class="w3-third">
       <img src="images/clusters.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
@@ -132,19 +135,32 @@ body {
       <img src="images/gathering-poster-web.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
     </div>
         <div class="w3-third">
-      <img src="images/artwork2.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="images/artwork3.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+    </div>
+<div class="w3-container less">
+<br>
+</div>
+<div>
+        <div class="w3-quarter">
+      <img src="images/gathering/1.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <h1 class="w3-small w3-third">Photos by Demetris Shammas</h1>
     </div>
 
-
-
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
+    <div class="w3-quarter">
+      <img src="images/gathering/2.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
     </div>
-  </div>
+
+       <div class="w3-quarter">
+      <img src="images/gathering/3.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+    </div>
+
+ <div class="w3-quarter">
+      <img src="images/gathering/4.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+    </div>
+
+<div>
+
+
 
   <div class="w3-container less">
 <br>
@@ -152,7 +168,85 @@ body {
 <br>
 </div>
 
- <div class="w3-container less" id="ebb" style="margin-top:65px;">
+
+  <div class="w3-container" style="margin-top:50px" id="honest">
+
+    <h1 class="w3-large w3-third"></h1>
+    <h1 class="w3-large w3-third"><b>Record Label</h1>
+    <h1 class="w3-small w3-text-white"><b>Art Direction & Graphic Design</b></h1>
+    <h1 class="w3-small w3-third" >The record label works as a stand alone company which aims at highlighting and promoting the works of our collective by offering services such as Industry & Technical Knowhow (sound engineering, mixing, mastering, promotion, production and distribution) and Art Direction (graphic design, artist profile, press package). While the social platform gives the collective the opportunity to perform and interact with a wider audience whether this be with live performances at label showcases or within a online network utilising the labels presence. </h1>
+  </div>
+  <br>
+  <div>
+    <div class="w3-quarter">
+      <a href="https://honestelectronics.bandcamp.com/album/kyklophonon-ii-sessions-he10" target="_blank">
+      <img src="images/honest/he10.jpg" style="width:100%">
+    </div>
+    <div class="w3-quarter">
+      <a href="https://honestelectronics.bandcamp.com/album/helping-hand-he08" target="_blank">
+      <img src="images/honest/he08.jpg" style="width:100%">
+    </div>
+        <div class="w3-quarter">
+          <a href="https://honestelectronics.bandcamp.com/album/hawaiiprus-he04" target="_blank">
+      <img src="images/honest/he04.jpg" style="width:100%">
+    </div>
+        <div class="w3-quarter">
+          <a href="https://honestelectronics.bandcamp.com/album/mutual-ground-ii-he09" target="_blank">
+      <img src="images/honest/he09.jpg" style="width:100%">
+    </div>
+</div>
+  <div>
+    <div class="w3-quarter">
+      <a href="https://honestelectronics.bandcamp.com/album/hawaiiprus-he04" target="_blank">
+      <img src="images/honest/he03.jpg" style="width:100%">
+    </div>
+    <div class="w3-quarter">
+      <a href="https://honestelectronics.bandcamp.com/album/dishonest-01-dis01" target="_blank">
+      <img src="images/honest/dis1.jpg" style="width:100%">
+    </div>
+        <div class="w3-quarter">
+          <a href="https://honestelectronics.bandcamp.com/album/motorik-he01" target="_blank">
+      <img src="images/honest/he01.jpg" style="width:100%">
+    </div>
+        <div class="w3-quarter">
+          <a href="https://honestelectronics.bandcamp.com/album/thanatos-he05" target="_blank">
+      <img src="images/honest/he05.jpg" style="width:100%">
+    </div>
+</div>
+
+  <div class="w3-container less">
+<br>
+<br>
+<br>
+</div>
+
+<div class="w3-container" style="margin-top:50px" id="honest">
+
+    <h1 class="w3-large w3-third"></h1>
+    <h1 class="w3-large w3-third"><b>The Gathering II</h1>
+    <h1 class="w3-small w3-text-white"><b>Art Direction & Graphic Design</b></h1>
+    <h1 class="w3-small w3-third" ></h1>
+  </div>
+  <br>
+  <div>
+    <div class="w3-third">
+      <a href="https://honestelectronics.bandcamp.com/album/kyklophonon-ii-sessions-he10" target="_blank">
+      <img src="images/honest/poster-ii.jpg" style="width:100%">
+    </div>
+    <div class="w3-twothird">
+     <iframe style="width:100%; height:600px;" src="//e.issuu.com/embed.html#3933776/63843089" frameborder="0" allowfullscreen></iframe>
+    </div>
+     
+</div>
+
+  <div class="w3-container less">
+<br>
+<br>
+<br>
+</div>
+
+<!-- Thkio Ppalies -->
+ <div class="w3-container less" id="ppalies" style="margin-top:65px;">
 
     <h1 class="w3-large w3-third">Thkio PPalies</h1>
 
