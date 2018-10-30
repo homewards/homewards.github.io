@@ -2,21 +2,22 @@
 <html>
 <head>
         <link rel="stylesheet" href="css/salvia.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 <style> 
 
 
 /* Standard syntax */
 #div1 {
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     position: absolute;
     animation: mymove 17s infinite alternate;
     animation-timing-function: linear;
 }
 #div2 {
-        width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     position: absolute;
         animation: mymovei 11s infinite alternate;
         animation-timing-function: ease;
@@ -24,26 +25,27 @@
 }
 
 #div3 {
-        width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     position: absolute;
         animation: mymove 15s infinite alternate;
         animation-timing-function: ease-in;
 }
 
 
+
 #div4 {
-        width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     position: absolute;
-        animation: mymovei 12s infinite alternate;
+        animation: mymoveii 12s infinite alternate;
         animation-timing-function: ease-out;
 }
 
 
 #div5 {
-        width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     position: absolute;
         animation: mymove 10s infinite alternate;
         animation-timing-function: ease-in-out;
@@ -62,6 +64,11 @@
     to {left: 600px;}
 }
 
+@keyframes mymoveii {
+    from {left: 300px;}
+    to {left: 500px;}
+}
+
 
 </style>
 <body>
@@ -78,6 +85,16 @@
 </div>
 <div id="div3">
     <img id="bl3" src="images/sv.png">
+</div>
+
+<div>
+
+<marquee 
+class="two"
+scrollamount="10"
+direction= "right">
+<img src="images/sv.png" max-height="100%" class="sideimg4">
+</marquee>
 </div>
 
 <div id="div4">

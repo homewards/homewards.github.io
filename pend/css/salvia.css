@@ -64,11 +64,12 @@ position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
 }
 
 .sideimg4 {
-    max-width:100%; 
-    max-height:100%;
--webkit-animation:spin 100s linear infinite;
-    -moz-animation:spin 100s linear infinite;
-    animation:spin 100s linear infinite;
+    position: relative;
+    max-width:70%; 
+    max-height:70%;
+-webkit-animation:spin 60s linear infinite;
+    -moz-animation:spin 60s linear infinite;
+    animation:spin 60s linear infinite;
 
 }
 
