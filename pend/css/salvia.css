@@ -73,6 +73,32 @@ position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
 
 }
 
+.full {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+}
+
+.zoom {
+  animation: scale 100s linear infinite;
+}
+  
+@keyframes scale {
+  100% {
+    -webkit-transform:scale(10);
+    -moz-transform:scale(10);
+    -ms-transform:scale(10);
+    -o-transform:scale(10);
+    transform:scale(10);
+  }
+}
+
 #loading {
         -webkit-animation: rotation 60s infinite linear;
         max-width: 100%;
