@@ -1,0 +1,132 @@
+body { background: linear-gradient(181deg, #ff0000, #ff0000, #ff9000, #ff9000, #ffdf00, #ffdf00, #d2be30, #968823, #8b7a00, #695d03, #6d6525, #87846a, #b4b3aa, #d1cfc0, #f2efd9, #e1d684, #c7b73b, #c7903b, #de911a, #de6f1a, #de431a, #fe3500);
+background-size: 4400% 4400%;
+
+
+-webkit-animation: AnimationName 300s ease infinite;
+-moz-animation: AnimationName 300s ease infinite;
+animation: AnimationName 300s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+
+
+
+.sideimg2 {
+    max-width:10%; 
+    max-height:10%;
+-webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+
+}
+
+
+.sideimg3 {
+    max-width:15%; 
+    max-height:15%;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+
+}
+
+.sideimg4 {
+    position: relative;
+    max-width:70%; 
+    max-height:70%;
+-webkit-animation:spin 60s linear infinite;
+    -moz-animation:spin 60s linear infinite;
+    animation:spin 60s linear infinite;
+
+}
+
+#next {
+  top: 90%;
+}
+
+.full {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+}
+
+
+  
+
+#loading {
+     
+        max-width: 50%;
+}
+
+#bl1 {
+      
+        max-width: 60%;
+}
+
+#bl2 {
+      
+        max-width: 70%;
+}
+
+#bl3 {
+      
+        max-width: 80%;
+}
+
+#bl4 {
+     
+        max-width: 100%;
+}
+
+#bl5 {
+      
+        max-width: 100%;
+}
+
+.cen {
+        position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.one {
+	position: absolute;
+
+
+}
+
+.two {
+	position: absolute;
+}
+
+
+html {
+  height:100%;
+  width:100%;
+}
+
+
