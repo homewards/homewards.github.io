@@ -72,7 +72,10 @@ animation: AnimationName 300s ease infinite;
 }
 
 
-  
+  #text {
+  font-size: 2px;
+font-color: black;
+}
 
 #loading {
      

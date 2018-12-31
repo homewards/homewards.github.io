@@ -23,6 +23,10 @@ animation: AnimationName 300s ease infinite;
     100%{background-position:0% 50%}
 }
 
+#text {
+  font-size: 2px;
+font-color: black;
+}
 
 
 
