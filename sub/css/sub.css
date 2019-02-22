@@ -1,0 +1,152 @@
+body { background: linear-gradient(2270deg, #dddbfb, #d4d1ff, #c9c6ff, #bcb9ff, #b3afff, #9c97f9, #8e88f9, #7c75f9, #675ff5, #5950fb, #4d43fb, #453afb, #4135ff, #3e32ff, #3326ff, #2a1dfd, #2012ff, #0f00ff, #0f00ff, #0f00fb, #0d00d2, #1005b6, #090090, #090272, #050054, #060341, #030221, #000000, #000000, #000000, #000000, #000000, #000000, #00123f, #011a58, #011a58, #012170, #002a90, #0133ac, #023dca, #ffb600, #000145, #000296, #0204bf, #0002df, #0002ff, #3031ff, #6d6df9);
+background-size: 9600% 9600%;
+
+-webkit-animation: AnimationName 300s ease infinite;
+-moz-animation: AnimationName 300s ease infinite;
+animation: AnimationName 300s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.text {
+  position: absolute;
+  font-size: 15px;
+font-color: black;
+text-decoration: none;
+top: 5px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.soundcloud {
+  position: absolute;
+  bottom: 5px;
+  width: 99%;
+}
+
+
+.sideimg2 {
+    max-width:10%; 
+    max-height:10%;
+-webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+
+}
+
+
+.sideimg3 {
+    max-width:15%; 
+    max-height:15%;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+
+}
+
+.sideimg4 {
+    position: relative;
+    max-width:70%; 
+    max-height:70%;
+-webkit-animation:spin 60s linear infinite;
+    -moz-animation:spin 60s linear infinite;
+    animation:spin 60s linear infinite;
+
+}
+
+#next {
+  top: 90%;
+}
+
+.full {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+}
+
+
+  
+
+#loading {
+     
+        max-width: 50%;
+}
+
+#bl1 {
+      
+        max-width: 60%;
+}
+
+#bl2 {
+      
+        max-width: 70%;
+}
+
+#bl3 {
+      
+        max-width: 80%;
+}
+
+#bl4 {
+     
+        max-width: 100%;
+}
+
+#bl5 {
+      
+        max-width: 100%;
+}
+
+.cen {
+        position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.one {
+	position: absolute;
+
+
+}
+
+.two {
+	position: absolute;
+}
+
+
+html {
+  height:100%;
+  width:100%;
+}
+
+
