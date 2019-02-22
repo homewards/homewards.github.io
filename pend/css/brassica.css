@@ -4,86 +4,104 @@ body {
 }
 
 
-/* Circle Text Styles */
-#outerCircleText {
-
-/* Optional - DO NOT SET FONT-SIZE HERE, SET IT IN THE SCRIPT */
-font-style: normal;
-font-weight: bold;
-color: #0008ff;
-/* End Optional */
-
-/* Start Required - Do Not Edit */
-position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
-#outerCircleText div {position: relative;}
-#outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
-/* End Required */
-/* End Circle Text Styles */
 
 
+/* Standard syntax */
+#div1 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    animation: mymove 20s infinite alternate;
+    animation-timing-function: linear;
+}
+#div2 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+        animation: mymovei 15s infinite alternate;
+        animation-timing-function: ease;
 
+}
 
-
-.sideimg2 {
-    max-width:10%; 
-    max-height:10%;
--webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-
+#div3 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+        animation: mymove 19s infinite alternate;
+        animation-timing-function: ease-in;
 }
 
 
 
-.sideimg3 {
-    max-width:15%; 
-    max-height:15%;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+#div4 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+        animation: mymoveii 14s infinite alternate;
+        animation-timing-function: ease-out;
+}
+
+
+#div5 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+        animation: mymove 23s infinite alternate;
+        animation-timing-function: ease-in-out;
+}
+
+#div6 {
+    top: 20%;
+    width: 55%;
+    height: 55%;
+    position: absolute;
+}
+
+#div7 {
+    width: 35%;
+    height: 35%;
+    position: absolute;        
+    animation: mymoveiii 70s infinite alternate;
+        animation-timing-function: ease-in-out;
+
 
 }
 
-.sideimg4 {
-    position: relative;
-    max-width:70%; 
-    max-height:70%;
--webkit-animation:spin 60s linear infinite;
-    -moz-animation:spin 60s linear infinite;
-    animation:spin 60s linear infinite;
+#div8 {
+    width: 35%;
+    height: 35%;
+    position: absolute;        
+    animation: mymoveiii 70s infinite alternate;
+        animation-timing-function: ease-in-out;
+
 
 }
 
-.full {
-  position: absolute;
-  width: 10%;
-  height: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  display: block;
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 30px;}
+    to {left: 700px;}
 }
 
-.zoom {
-  animation: scale 100s linear infinite;
-}
-  
-@keyframes scale {
-  100% {
-    -webkit-transform:scale(10);
-    -moz-transform:scale(10);
-    -ms-transform:scale(10);
-    -o-transform:scale(10);
-    transform:scale(10);
-  }
+@keyframes mymovei {
+    from {left: 100px;}
+    to {left: 600px;}
 }
 
-#loading {
-        -webkit-animation: rotation 60s infinite linear;
-        max-width: 100%;
+@keyframes mymoveii {
+    from {left: 300px;}
+    to {left: 500px;}
 }
+
+@keyframes mymoveiii {
+    from {left: 300px;}
+    to {left: 800px;}
+}
+
+
+
+
 
 #bl1 {
         -webkit-animation: rotation 60s infinite linear;
