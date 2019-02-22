@@ -109,6 +109,11 @@ position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
         max-width: 100%;
 }
 
+#bl6 {
+        -webkit-animation: rotation 60s infinite linear;
+        max-width: 100%;
+}
+
 .cen {
         position: absolute;
     top: 50%;
