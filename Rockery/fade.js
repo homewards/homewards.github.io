@@ -35,8 +35,17 @@ $(document).ready(function(){
   fadeFunction("#divb", 30000, 200000, 2000);
   fadeFunction("#divc", 30000, 300000, 2000);
   fadeFunction("#divd", 40000, 100000, 2000);
-   fadeFunction("#dive", 150000, 100000, 2000);
+  fadeFunction("#dive", 150000, 100000, 2000);
+  fadeFunction("#divf", 60000, 70000, 1000);
+  fadeFunction("#divg", 10000, 60000, 2000);
+  fadeFunction("#divh", 20000, 50000, 2000);
+  fadeFunction("#divi", 30000, 50000, 2000);
 
+  fadeFunction("#divki", 20000, 100000, 2000);
+  fadeFunction("#divkii", 20000, 30000, 2000);
+  fadeFunction("#divkiii", 50000, 20000, 2000);
+  fadeFunction("#divkvi", 60000, 20000, 2000);
+  fadeFunction("#divkv", 5000, 20000, 1000);
 
 });
 

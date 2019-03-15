@@ -25,7 +25,7 @@ body {
     position: absolute;
     animation: mymove 19s infinite alternate;
     animation-timing-function: ease-in;
-    z-index:0;
+    z-index:7;
 }
 
 
@@ -187,8 +187,8 @@ body {
 
 
 #div10 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     position: absolute;
     animation: mymove 20s infinite alternate;
     animation-timing-function: linear;
@@ -196,8 +196,8 @@ body {
 }
 
 #div11 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     position: absolute;
     animation: mymove 20s infinite alternate;
     animation-timing-function: linear;
@@ -268,7 +268,7 @@ body {
 
 #divd {
     bottom: 0px;
-    left: 10%;
+    left: 0%;
     height: 100%;
     position: absolute; 
         display: none;       
@@ -283,6 +283,95 @@ body {
     display: none;      
     z-index:7;
 }
+
+#divf {
+    bottom: 0px;
+    right: 20%;
+    height: 90%;
+    position: absolute;
+        display: none;        
+    z-index:-4;
+
+}
+
+#divg {
+    bottom: 0px;
+    right: 0%;
+    height: 60%;
+    position: absolute; 
+        display: none;       
+    z-index:-3;
+}
+
+#divh {
+    bottom: 0%;
+    right: 3%;
+    height: 100%;
+    position: absolute;  
+    display: none;      
+    z-index:7;
+}
+
+#divi {
+    top: 0%;
+    left: 0%;
+    height: 60%;
+    position: absolute;  
+    display: none;      
+    z-index:7;
+}
+
+
+
+#divki {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    animation: mymove 20s infinite alternate;
+    animation-timing-function: linear;
+        z-index:5;
+}
+
+#divkii {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    animation: mymove 20s infinite alternate;
+    animation-timing-function: linear;
+        z-index:5;
+}
+
+#divkiii {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    animation: mymove 20s infinite alternate;
+    animation-timing-function: linear;
+        z-index:5;
+}
+
+#divkvi {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    animation: mymove 20s infinite alternate;
+    animation-timing-function: linear;
+        z-index:5;
+}
+
+
+#divkv {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    animation: mymove 20s infinite alternate;
+    animation-timing-function: linear;
+    z-index:5;
+}
+
+
+
+
 
 img{
     max-width: 100%;
@@ -325,6 +414,7 @@ img{
         -webkit-animation: rotation 120s infinite linear;
         max-width: 100%;
 }
+
 
 
 /* Standard syntax */
