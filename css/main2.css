@@ -1,0 +1,45 @@
+
+body {
+	font-family: "Space Mono", sans-serif;
+	letter-spacing: 1px; line-height: 1;
+  margin: 0;
+  background-color: black;
+  color: white;
+ 
+}
+
+
+.yes {
+  font-size: 2vw;
+    position: absolute;
+  top: 5vw;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 650px)  {
+
+    .honest  { right: 1vw; 
+               top: 4%;
+               max-height: 100%;
+               width: 100%;
+}
+
+    .honest2 { height: 140vw; 
+}
+
+.squareb { height: 65vw; 
+}
+
+.squareo { height: 65vw; 
+}
+
+.squareg { height: 65vw; 
+}
+
+
+
+html {
+  height:100%;
+  width:100%;
+}
