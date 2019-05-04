@@ -89,18 +89,20 @@ animation: AnimationName 6s ease infinite;
     .honest2 { height: 140vw; 
 }
 
-.squareb { height: 30vw; 
+.squareb { height: 65vw; 
 }
 
-.squareo { height: 30vw; 
+.squareo { height: 65vw; 
 }
 
-.squareg { height: 30vw; 
+.squareg { height: 65vw; 
 }
 
 
 
-
+#low {
+   width:100%
+}
 
 html {
   height:100%;
