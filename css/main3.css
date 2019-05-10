@@ -18,7 +18,7 @@ position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
 
 
 
-body h3 {
+body {
   font-family: "Space Mono", sans-serif;
 
   margin: 0;
@@ -53,6 +53,12 @@ animation: AnimationName 6s ease infinite;
       line-height: 1;
   font-size: 5vw;
   color:#001EF7;
+    font-family: "Space Mono", sans-serif;
+    background-size: 600% 600%;
+
+-webkit-animation: AnimationName 6s ease infinite;
+-moz-animation: AnimationName 6s ease infinite;
+animation: AnimationName 6s ease infinite;
 
 
 }
