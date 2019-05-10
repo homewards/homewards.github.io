@@ -4,7 +4,7 @@ overflow: hidden;
 
 body {
   background-color: black;
-  font-family: 'Chivo', sans-serif;
+  font-family: "Space Mono", sans-serif;
 }
 
 
@@ -21,17 +21,17 @@ right:5%;
 
 #names2 {
     position: absolute;
-    bottom: 1%;
-    color: white;
-font-size: 50px;
+    top: 1%;
+    color: #001EF7;
+font-size: 80px;
 z-index: 5;
 }
 
 #names {
     position: absolute;
-    bottom: 6%;
-    color: white;
-font-size: 50px;
+    bottom: 1%;
+    color: #FE5000;
+font-size: 80px;
 z-index: 5;
 }
 
